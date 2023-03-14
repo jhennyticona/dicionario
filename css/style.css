@@ -1,5 +1,6 @@
 body{
     font-family: Open Sans, sans-serif;
+    background-color:#777;
 }
 
 header{
@@ -16,11 +17,12 @@ header{
 h1{
     margin-bottom: 0;
     text-transform: uppercase;
+    color:darkorange;
 }
 @media(max-width:768px){
     h1{
         font-size: 36px;
-        color: blue;
+        color:darkorange;
     }
 }
 section{
@@ -60,15 +62,18 @@ section{
     width: 300px;
     height: auto;
     display: inline-block;
+    background-color:cornsilk;
 }
 @media(max-width:768px){
     .card details{
         width: 100%;
+        background-color: burlywood;
     }
 }
 .card details summary{
     font-size: 18px;
     padding: 10px;
+    background-color:darkorange;
 }
 @media(max-width:768px){
     .card details summary{
